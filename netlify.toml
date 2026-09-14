@@ -1,0 +1,5 @@
+# Configuracion de build de bramund-site.
+# El sitio es HTML ya compilado (espejo del Hugo original), asi que NO hay
+# paso de build: se publica el contenido de la raiz del repo tal cual.
+[build]
+  publish = "."
