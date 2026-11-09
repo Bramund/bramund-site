@@ -5,35 +5,71 @@
     <lastmod>2026-11-09</lastmod>
     <xhtml:link rel="alternate" hreflang="es" href="https://bramund.com/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://bramund.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://bramund.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bramund.com/"/>
   </url>
   <url>
     <loc>https://bramund.com/en/</loc>
     <lastmod>2026-11-09</lastmod>
     <xhtml:link rel="alternate" hreflang="es" href="https://bramund.com/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://bramund.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://bramund.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bramund.com/"/>
+  </url>
+  <url>
+    <loc>https://bramund.com/pt/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bramund.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bramund.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://bramund.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bramund.com/"/>
   </url>
   <url>
     <loc>https://bramund.com/sobre/</loc>
     <lastmod>2026-11-09</lastmod>
     <xhtml:link rel="alternate" hreflang="es" href="https://bramund.com/sobre/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://bramund.com/en/about/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://bramund.com/pt/sobre/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bramund.com/sobre/"/>
   </url>
   <url>
     <loc>https://bramund.com/en/about/</loc>
     <lastmod>2026-11-09</lastmod>
     <xhtml:link rel="alternate" hreflang="es" href="https://bramund.com/sobre/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://bramund.com/en/about/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://bramund.com/pt/sobre/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bramund.com/sobre/"/>
+  </url>
+  <url>
+    <loc>https://bramund.com/pt/sobre/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bramund.com/sobre/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bramund.com/en/about/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://bramund.com/pt/sobre/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bramund.com/sobre/"/>
   </url>
   <url>
     <loc>https://bramund.com/contacto/</loc>
     <lastmod>2026-11-09</lastmod>
     <xhtml:link rel="alternate" hreflang="es" href="https://bramund.com/contacto/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://bramund.com/en/contact/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://bramund.com/pt/contato/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bramund.com/contacto/"/>
   </url>
   <url>
     <loc>https://bramund.com/en/contact/</loc>
     <lastmod>2026-11-09</lastmod>
     <xhtml:link rel="alternate" hreflang="es" href="https://bramund.com/contacto/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://bramund.com/en/contact/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://bramund.com/pt/contato/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bramund.com/contacto/"/>
+  </url>
+  <url>
+    <loc>https://bramund.com/pt/contato/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bramund.com/contacto/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bramund.com/en/contact/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://bramund.com/pt/contato/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bramund.com/contacto/"/>
   </url>
 </urlset>

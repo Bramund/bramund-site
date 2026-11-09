@@ -6,8 +6,22 @@
   <script src="https://cdn.pagesense.io/js/bramundforfoundries/4b8dc6d2261f46588b96018902884e7d.js"></script>
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  
-  <title>Contact - Bramund for Foundries</title>
+  <script>
+  /* idioma automatico solo la primera visita a una pagina en espanol; nunca para buscadores */
+  (function () {
+    try {
+      if (document.documentElement.lang.slice(0, 2) !== "es") return;
+      if (localStorage.getItem("langChosen") || localStorage.getItem("previousLang")) return;
+      if (/bot|crawl|spider|slurp|lighthouse|headless|google|bing/i.test(navigator.userAgent)) return;
+      var u = (navigator.language || navigator.userLanguage || "").toLowerCase();
+      if (u.indexOf("es") === 0) return;
+      var M = {"/": ["/en/", "/pt/"], "/sobre/": ["/en/about/", "/pt/sobre/"], "/contacto/": ["/en/contact/", "/pt/contato/"]};
+      var p = location.pathname; if (p.slice(-1) !== "/") p += "/";
+      var m = M[p]; if (!m) return;
+      location.replace(u.indexOf("pt") === 0 ? m[1] : m[0]);
+    } catch (e) {}
+  })();
+</script>
   <link rel="stylesheet" href="/css/tailwind_output.css" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
@@ -27,21 +41,24 @@
 
     gtag("config", "G-3XT177Z3HY");
   </script>
-  
-  
-  <meta name="title" content="Contact Bramund" />
-  <meta name="description" content="Our team of specialists is at your disposal. We want to hear from you." />
-  
+  <title>Contact | Bramund for Foundries – foundry equipment</title>
+  <meta name="description" content="Talk to our foundry specialists in Mexico and Brazil. Request quotes for machines, equipment and engineering projects for your foundry." />
+  <link rel="canonical" href="https://bramund.com/en/contact/" />
+  <link rel="alternate" hreflang="es" href="https://bramund.com/contacto/" />
+  <link rel="alternate" hreflang="en" href="https://bramund.com/en/contact/" />
+  <link rel="alternate" hreflang="pt" href="https://bramund.com/pt/contato/" />
+  <link rel="alternate" hreflang="x-default" href="https://bramund.com/contacto/" />
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Contact Bramund" />
-  <meta property="og:description" content="Our team of specialists is at your disposal. We want to hear from you." />
-  <meta property="og:image" content="/seo_image.jpg" />
-  
+  <meta property="og:site_name" content="Bramund for Foundries" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:url" content="https://bramund.com/en/contact/" />
+  <meta property="og:title" content="Contact | Bramund for Foundries – foundry equipment" />
+  <meta property="og:description" content="Talk to our foundry specialists in Mexico and Brazil. Request quotes for machines, equipment and engineering projects for your foundry." />
+  <meta property="og:image" content="https://bramund.com/seo_image.jpg" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="twitter:title" content="Contact Bramund" />
-  <meta property="twitter:description" content="Our team of specialists is at your disposal. We want to hear from you." />
-  <meta property="twitter:image" content="/seo_image.jpg" />
-  
+  <meta property="twitter:title" content="Contact | Bramund for Foundries – foundry equipment" />
+  <meta property="twitter:description" content="Talk to our foundry specialists in Mexico and Brazil. Request quotes for machines, equipment and engineering projects for your foundry." />
+  <meta property="twitter:image" content="https://bramund.com/seo_image.jpg" />
 </head>
 
 <body class="font-sans lining-nums text-gray-500 selection:bg-primary-400 selection:text-white-100">
@@ -86,17 +103,7 @@
       <a href='/en'>
         <img src="/png/logo_bramund_horizontal.png" class="mx-auto max-h-full" />
       </a>
-      <a class="flex aspect-square h-full items-center justify-center rounded-lg border-2 border-solid border-gray-100 text-secondary-400 text-xs uppercase font-bold active:border-none active:bg-primary-400 active:text-white-100"
-        id="lang-btn-mobile" onclick="setLang()"    href="https://www.bramund.com/contacto/"      >
-        
-        
-        es
-        
-        
-        
-        
-        
-      </a>
+      <div id="lang-btn-mobile" class="flex aspect-square h-full items-center justify-center rounded-lg border-2 border-solid border-gray-100 text-secondary-400 text-xs uppercase font-bold" style="flex-direction:column;gap:2px"><a class="active:text-primary-300" onclick="setLang()" lang="es" hreflang="es" href="https://bramund.com/contacto/">es</a><a class="active:text-primary-300" onclick="setLang()" lang="pt" hreflang="pt" href="https://bramund.com/pt/contato/">pt</a></div>
     </div>
   </div>
 
@@ -201,19 +208,7 @@
         
       </ul>
       <div class="w-px bg-gray-200"></div>
-      <a class="left-full min-w-[4rem] flex h-full items-center justify-center text-gray-200
-      transition hover:text-secondary-400 active:scale-95 active:text-primary-300" onclick='setLang()'
-        id="lang-btn-desktop"    href="https://www.bramund.com/contacto/"      >
-        
-        
-        Español
-        
-        
-        
-        
-        
-        
-      </a>
+      <div id="lang-btn-desktop" class="flex h-full items-center justify-center" style="gap:1rem;padding:0 .75rem"><a class="text-gray-200 transition hover:text-secondary-400 active:scale-95 active:text-primary-300" onclick="setLang()" lang="es" hreflang="es" href="https://bramund.com/contacto/">Español</a><a class="text-gray-200 transition hover:text-secondary-400 active:scale-95 active:text-primary-300" onclick="setLang()" lang="pt" hreflang="pt" href="https://bramund.com/pt/contato/">Português</a></div>
     </div>
   </div>
 </nav> <div class="fixed right-4 bottom-10 z-30 flex flex-col items-end xl:right-6">
@@ -652,9 +647,9 @@
     <div class="mx-16 hidden w-0.5 bg-gray-300 lg:block"></div>
     <div class="leading-6 lg:w-[50%]">
       <p class="font-bold">Bramund for Foundries</p>
-      <p>Business Park JGN</p>
+      <p>Navetec Industrial Park</p>
       <p>
-        <a href="https://g.page/bramund4" class="hover:underline active:text-gray-300">Carretera Federal 57, El Marqués, Lateral Norte Km 201&#43;100, Nave 57, Querétaro, México</a>
+        <a href="https://www.google.com/maps/search/?api=1&amp;query=Libramiento+Surponiente+45667+Parque+Industrial+Navetec+Santa+Rosa+de+J%C3%A1uregui+Quer%C3%A9taro" target="_blank" rel="noopener" class="hover:underline active:text-gray-300">Libramiento Surponiente 45667, Int. 10 D, Santa Rosa de Jáuregui, Querétaro, C.P. 76220, México</a>
       </p>
       <p class="mt-12 font-bold">Monday to Friday - 8am a 6pm</p>
     </div>
@@ -698,6 +693,7 @@
   <script src="/js/message_box.js"></script>
   <script>
     function setLang() {
+      try { localStorage.setItem("langChosen", "1"); } catch (e) {}
       var currentLang = document.documentElement.lang;
       localStorage.setItem("previousLang", currentLang);
       sessionStorage.setItem("currentScrollHeight", Math.round(window.scrollY));
