@@ -1,7 +1,7 @@
 // Formulario de contacto -> correo a ailin@bramund.com via FormSubmit (provisorio hasta que Soldar conecte Zoho).
 // Antes el form hacia POST a /exito/ (pagina de Netlify Forms que ya no existe) y los mensajes se perdian.
 (function () {
-  const MAIL = "ailin@bramund.com";
+  const MAIL = "c7f6f7c23077425259a971b9a414c472"; // = ailin@bramund.com (codigo de FormSubmit, oculta el correo)
   const f = document.querySelector("form[name^='contact_form_']");
   if (!f) return;
   const lang = f.getAttribute("name").slice(-2); // es | en | pt
