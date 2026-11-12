@@ -4,7 +4,7 @@
   const MAIL = "ailin@bramund.com";
   const f = document.querySelector("form[name^='contact_form_']");
   if (!f) return;
-  const lang = f.name.slice(-2); // es | en | pt
+  const lang = f.getAttribute("name").slice(-2); // es | en | pt
   const T = {
     es: { sending: "Enviando…", okH: "¡Gracias! Recibimos su mensaje", okP: "Le responderemos muy pronto.", err: "No se pudo enviar. Por favor escríbanos a " },
     en: { sending: "Sending…", okH: "Thank you! We received your message", okP: "We will get back to you very soon.", err: "Could not send. Please write to us at " },
@@ -26,7 +26,7 @@
           _subject: "Contacto bramund.com [" + lang.toUpperCase() + "] · " + (d.company || d.name || ""),
           _template: "table", _captcha: "false", _replyto: d.email,
           Nombre: d.name, Empresa: d.company, Correo: d.email,
-          "Quiere hablar con": txt(f.recipient), Partner: txt(f.partner), "Solución": txt(f.solution),
+          "Quiere hablar con": txt(f.elements.recipient), Partner: txt(f.elements.partner), "Solución": txt(f.elements.solution),
           Mensaje: d.message, Origen: location.href,
         }),
       });
